@@ -1,0 +1,1 @@
+*.class # IDE clutter .vscode/ .idea/ *.iml # OS clutter .DS_Store Thumbs.db Line by line: *.class ignores every compiled Java bytecode file (these get regenerated from your .java source, so they don't belong in git). .vscode/ ignores VS Code's own settings folder for this project. .DS_Store and Thumbs.db are junk files macOS/Windows create automatically in folders.
